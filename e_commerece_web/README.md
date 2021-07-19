@@ -7,6 +7,9 @@ Card No :- 4242 4242 4242 4242
 Exp:- 07/21 (current month/year)
 cvv:- 123
 
+## Heroku App link
+https://your-shopping-cart.herokuapp.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
