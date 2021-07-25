@@ -1,10 +1,9 @@
 import {all ,call} from  "@redux-saga/core/effects";
 
-import { incrementSaga , decrementSaga} from './app.saga';
+import { counterSaga} from './app.saga';
 
 export default function* rootSaga(){
     yield all([
-        call(incrementSaga),
-        call(decrementSaga),
+        call(counterSaga)
     ]);
 }
